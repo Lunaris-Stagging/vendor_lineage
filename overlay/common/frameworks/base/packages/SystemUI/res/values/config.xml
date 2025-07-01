@@ -71,4 +71,5 @@
         <item>bottom_end:flashlight</item>
     </string-array>
 
+    <bool name="config_vibrateOnIconAnimation" translatable="false">false</bool>
 </resources>
