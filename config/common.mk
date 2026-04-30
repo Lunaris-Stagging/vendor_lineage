@@ -264,6 +264,8 @@ endif
 PRODUCT_DEXPREOPT_SPEED_APPS += \
     AppLocker \
     CarSystemUI \
+    GameSpace \
+    Settings \
     SystemUI
 
 PRODUCT_PRODUCT_PROPERTIES += \
