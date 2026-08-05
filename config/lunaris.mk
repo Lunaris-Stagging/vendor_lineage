@@ -168,3 +168,9 @@ PRODUCT_PRODUCT_PROPERTIES += \
 PRODUCT_PRODUCT_PROPERTIES += \
     remote_provisioning.enable_rkpd=true \
     remote_provisioning.hostname=remoteprovisioning.googleapis.com
+
+# properties
+TARGET_CUSTOM_UDFPS ?= false
+
+PRODUCT_PRODUCT_PROPERTIES += \
+    persist.sys.udfps.custom=$(TARGET_CUSTOM_UDFPS)
